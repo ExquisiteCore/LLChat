@@ -1,25 +1,25 @@
 {
     "format_version": 2,
-    "tooth": "change_this",
-    "version": "0.0.0",
+    "tooth": "LLchat",
+    "version": "0.0.1",
     "info": {
-        "name": "change_this",
-        "description": "change_this",
-        "author": "change_this",
+        "name": "LLchat",
+        "description": "幽香LLchat",
+        "author": "ExquisiteCore",
         "tags": [
             "levilamina",
             "plugin"
         ]
     },
-    "asset_url": "change_this",
+    "asset_url": "https://github.com/ExquisiteCore/LLchat",
     "prerequisites": {
         "github.com/LiteLDev/LeviLamina": "*"
     },
     "files": {
         "place": [
             {
-                "src": "rename-this/*",
-                "dest": "plugins/rename-this/"
+                "src": "LLchat/*",
+                "dest": "plugins/LLchat/"
             }
         ]
     }

@@ -3,7 +3,7 @@ add_rules("mode.debug", "mode.release")
 add_repositories("liteldev-repo https://github.com/LiteLDev/xmake-repo.git")
 
 -- Option 1: Use the latest version of LeviLamina released on GitHub.
-add_requires("levilamina")
+add_requires("levilamina","libuv","zlib","vcpkg::usockets","vcpkg::uwebsockets")--,"vcpkg::usockets","vcpkg::uwebsockets","libuv","zlib")
 
 -- Option 2: Use a specific version of LeviLamina released on GitHub.
 -- add_requires("levilamina x.x.x")
@@ -12,7 +12,7 @@ if not has_config("vs_runtime") then
     set_runtimes("MD")
 end
 
-target("rename-this") -- Change this to your plugin name.
+target("LLchat") -- Change this to your plugin name.
     add_cxflags(
         "/EHa", -- To catch both structured (asynchronous) and standard C++ (synchronous) exceptions.
         "/utf-8" -- To enable UTF-8 source code.
@@ -29,7 +29,7 @@ target("rename-this") -- Change this to your plugin name.
         "src"
     )
     add_packages(
-        "levilamina"
+        "levilamina","libuv","zlib","vcpkg::usockets","vcpkg::uwebsockets"
     )
     add_shflags(
         "/DELAYLOAD:bedrock_server.dll" -- To use forged symbols of SymbolProvider.
