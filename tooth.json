@@ -1,6 +1,6 @@
 {
     "format_version": 2,
-    "tooth": "LLchat",
+    "tooth": "github.com/ExquisiteCore/LLchat",
     "version": "0.0.1",
     "info": {
         "name": "LLchat",
