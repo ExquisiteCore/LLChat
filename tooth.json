@@ -1,7 +1,7 @@
 {
     "format_version": 2,
     "tooth": "github.com/ExquisiteCore/LLchat",
-    "version": "0.0.1",
+    "version": "0.1.2",
     "info": {
         "name": "LLchat",
         "description": "幽香LLchat",
@@ -11,7 +11,7 @@
             "plugin"
         ]
     },
-    "asset_url": "https://github.com/ExquisiteCore/LLchat",
+    "asset_url": "https://github.com/ExquisiteCore/LLchat/releases/download/v0.1.1/LLchat-windows-x64.zip",
     "prerequisites": {
         "github.com/LiteLDev/LeviLamina": "*"
     },

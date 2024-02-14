@@ -8,6 +8,7 @@
 #include <ll/api/plugin/PluginManagerRegistry.h>
 #include <memory>
 #include <stdexcept>
+#include <uwebsockets/App.h>
 
 namespace rename_this {
 
